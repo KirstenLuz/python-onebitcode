@@ -1,0 +1,42 @@
+Módulo 2 – Condições, Loops, List Comprehension, Try/Except e Funções
+Objetivo: Praticar lógica condicional, repetição, tratamento de erros e modularização.
+
+Peça a idade de uma pessoa e diga se ela é maior ou menor de idade.
+
+Receba um número e informe se ele é par ou ímpar.
+
+Use um for para exibir os números de 1 a 10.
+
+Use range() para exibir os números pares de 0 a 20.
+
+Percorra uma lista de nomes usando enumerate() e exiba índice e nome.
+
+Peça 5 notas e calcule a média.
+
+Use while para pedir uma senha até que o usuário acerte.
+
+Crie uma lista com números de 1 a 10 e use list comprehension para criar outra lista apenas com números pares.
+
+Use try/except para evitar erro de divisão por zero.
+
+Capture ValueError ao tentar converter entrada inválida para int.
+
+Crie uma função que receba um nome e exiba “Olá, [nome]!”.
+
+Crie uma função que calcule o fatorial de um número.
+
+Crie uma função com valor padrão para um parâmetro.
+
+Crie uma função que receba *args e imprima todos os valores.
+
+Crie uma função que receba **kwargs e exiba as chaves e valores.
+
+Crie uma função lambda que calcule o quadrado de um número.
+
+Crie uma função lambda que verifique se um número é par.
+
+Use função lambda para inverter uma string.
+
+Escreva uma função que receba dois números e retorne a soma.
+
+Crie uma função que receba uma lista e retorne a lista ordenada sem modificar a original.
