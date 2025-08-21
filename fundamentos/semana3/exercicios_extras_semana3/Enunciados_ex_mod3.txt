@@ -1,0 +1,42 @@
+Módulo 3 – Módulos e Bibliotecas (os, webbrowser, math, statistics, re, hashlib, json, collections, random, tkinter, venv)
+Objetivo: Usar bibliotecas padrão e externas em aplicações práticas.
+
+Crie e importe um módulo próprio com uma função simples.
+
+Use os.getcwd() para exibir o diretório atual.
+
+Liste todos os arquivos e pastas do diretório atual.
+
+Abra um site no navegador usando webbrowser.
+
+Calcule a raiz quadrada de 144 com math.sqrt().
+
+Use math.factorial() para calcular o fatorial de 6.
+
+Calcule a média de [10, 5, 8] usando statistics.mean().
+
+Encontre todas as letras entre “a” e “m” em uma string usando regex.
+
+Criptografe uma senha usando hashlib.sha256().
+
+Converta um dicionário Python para JSON e exiba a string.
+
+Leia um arquivo .json e exiba apenas uma chave específica.
+
+Use Counter para contar itens repetidos em uma lista.
+
+Use namedtuple para criar e armazenar dados de um jogo.
+
+Use deque para adicionar e remover elementos nas duas extremidades.
+
+Gere um número aleatório entre 1 e 100.
+
+Escolha aleatoriamente um elemento de uma lista.
+
+Embaralhe uma lista de cartas usando random.sample().
+
+Crie uma janela simples com tkinter com um campo de texto e botão.
+
+Crie e ative um ambiente virtual (comandos no terminal).
+
+Gere um requirements.txt com pip freeze.
