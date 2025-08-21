@@ -1,0 +1,42 @@
+Módulo 4 – POO
+Objetivo: Criar e manipular classes, métodos e objetos.
+
+Crie uma classe simples Carro com atributos marca e ano.
+
+Instancie um objeto da classe Carro e atribua valores.
+
+Adicione um método que exiba as informações do carro.
+
+Use um construtor (__init__) para inicializar os atributos.
+
+Crie o método __str__ para personalizar a exibição do objeto.
+
+Crie uma variável de classe fabricante e atribua valor comum a todos.
+
+Crie métodos para avaliar e calcular média de avaliações de um objeto.
+
+Crie um método de classe usando @classmethod.
+
+Crie um método estático usando @staticmethod.
+
+Crie uma classe Livro com atributos título, autor e preço.
+
+Adicione métodos para aplicar desconto e aumentar preço.
+
+Implemente herança criando uma classe Ebook que herde de Livro.
+
+Use super() para acessar atributos da classe pai.
+
+Implemente polimorfismo com dois métodos de mesmo nome em classes diferentes.
+
+Use composição criando uma classe que contenha outra como atributo.
+
+Crie um @property para acessar um atributo privado.
+
+Implemente métodos getter e setter para um atributo privado.
+
+Crie uma função decoradora que modifique o comportamento de um método.
+
+Crie múltiplos objetos de classes diferentes e armazene em uma lista.
+
+Percorra a lista chamando métodos comuns (polimorfismo).
