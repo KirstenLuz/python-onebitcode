@@ -1,0 +1,42 @@
+Módulo 1 – Operações com Strings, Listas, Tuplas, Sets, Dicionários e Estruturas de Controle
+Objetivo: Praticar manipulação de dados básicos, métodos e operações comuns.
+
+Crie uma string e repita-a 10 vezes usando o operador *.
+
+Concatene duas strings para formar uma frase.
+
+Verifique se a palavra "Python" está presente em uma frase digitada pelo usuário.
+
+Peça ao usuário uma frase e exiba-a invertida usando slicing.
+
+Use .upper() e .lower() para exibir um texto em maiúsculas e minúsculas.
+
+Centralize um texto de 15 caracteres usando center().
+
+Conte quantas vezes a letra "a" aparece em uma frase.
+
+Substitua todas as ocorrências da palavra "azul" por "vermelho" em uma string.
+
+Divida uma frase em palavras usando .split() e exiba a lista resultante.
+
+Crie uma lista com 5 filmes e exiba o segundo e o penúltimo filme.
+
+Adicione um novo filme ao final da lista usando .append().
+
+Ordene a lista de filmes em ordem alfabética e depois inverta a ordem.
+
+Crie uma tupla com 4 elementos e acesse o terceiro elemento.
+
+Crie um set com 5 elementos e adicione mais um elemento.
+
+Remova um elemento específico do set.
+
+Crie um dicionário com 3 produtos e seus preços, depois exiba apenas as chaves.
+
+Atualize o preço de um produto no dicionário.
+
+Adicione um novo par chave-valor ao dicionário.
+
+Crie um dicionário aninhado com 2 livros e suas informações (ano, nota).
+
+Acesse e exiba apenas o gênero do segundo livro do dicionário aninhado.
