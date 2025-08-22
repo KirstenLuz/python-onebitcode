@@ -21,8 +21,6 @@ Use try/except para evitar erro de divisão por zero.
 
 Capture ValueError ao tentar converter entrada inválida para int.
 
-Crie uma função que receba um nome e exiba “Olá, [nome]!”.
-
 Crie uma função que calcule o fatorial de um número.
 
 Crie uma função com valor padrão para um parâmetro.
@@ -33,10 +31,6 @@ Crie uma função que receba **kwargs e exiba as chaves e valores.
 
 Crie uma função lambda que calcule o quadrado de um número.
 
-Crie uma função lambda que verifique se um número é par.
-
 Use função lambda para inverter uma string.
-
-Escreva uma função que receba dois números e retorne a soma.
 
 Crie uma função que receba uma lista e retorne a lista ordenada sem modificar a original.
