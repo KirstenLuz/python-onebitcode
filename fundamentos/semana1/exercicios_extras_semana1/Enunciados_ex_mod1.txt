@@ -1,6 +1,6 @@
 # Módulo 1 – Operações com Strings, Listas, Tuplas, Sets, Dicionários e Estruturas de Controle  
 
-**Objetivo:** Praticar manipulação de dados básicos, métodos e operações comuns.  
+Objetivo: Praticar manipulação de dados básicos, métodos e operações comuns.  
 
 1. Crie uma string e repita-a 10 vezes usando o operador `*`.  
 2. Concatene duas strings para formar uma frase.  
@@ -22,3 +22,4 @@
 18. Adicione um novo par chave-valor ao dicionário.  
 19. Crie um dicionário aninhado com 2 livros e suas informações (ano, nota).  
 20. Acesse e exiba apenas o gênero do segundo livro do dicionário aninhado.  
+
