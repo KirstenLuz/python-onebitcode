@@ -1,42 +1,24 @@
-Módulo 4 – POO
-Objetivo: Criar e manipular classes, métodos e objetos.
+# Módulo 4 – POO  
 
-Crie uma classe simples Carro com atributos marca e ano.
+Objetivo: Criar e manipular classes, métodos e objetos.  
 
-Instancie um objeto da classe Carro e atribua valores.
-
-Adicione um método que exiba as informações do carro.
-
-Use um construtor (__init__) para inicializar os atributos.
-
-Crie o método __str__ para personalizar a exibição do objeto.
-
-Crie uma variável de classe fabricante e atribua valor comum a todos.
-
-Crie métodos para avaliar e calcular média de avaliações de um objeto.
-
-Crie um método de classe usando @classmethod.
-
-Crie um método estático usando @staticmethod.
-
-Crie uma classe Livro com atributos título, autor e preço.
-
-Adicione métodos para aplicar desconto e aumentar preço.
-
-Implemente herança criando uma classe Ebook que herde de Livro.
-
-Use super() para acessar atributos da classe pai.
-
-Implemente polimorfismo com dois métodos de mesmo nome em classes diferentes.
-
-Use composição criando uma classe que contenha outra como atributo.
-
-Crie um @property para acessar um atributo privado.
-
-Implemente métodos getter e setter para um atributo privado.
-
-Crie uma função decoradora que modifique o comportamento de um método.
-
-Crie múltiplos objetos de classes diferentes e armazene em uma lista.
-
-Percorra a lista chamando métodos comuns (polimorfismo).
+1. Crie uma classe simples `Carro` com atributos `marca` e `ano`.  
+2. Instancie um objeto da classe `Carro` e atribua valores.  
+3. Adicione um método que exiba as informações do carro.  
+4. Use um construtor (`__init__`) para inicializar os atributos.  
+5. Crie o método `__str__` para personalizar a exibição do objeto.  
+6. Crie uma variável de classe `fabricante` e atribua valor comum a todos.  
+7. Crie métodos para avaliar e calcular média de avaliações de um objeto.  
+8. Crie um método de classe usando `@classmethod`.  
+9. Crie um método estático usando `@staticmethod`.  
+10. Crie uma classe `Livro` com atributos `título`, `autor` e `preço`.  
+11. Adicione métodos para aplicar desconto e aumentar preço.  
+12. Implemente herança criando uma classe `Ebook` que herde de `Livro`.  
+13. Use `super()` para acessar atributos da classe pai.  
+14. Implemente polimorfismo com dois métodos de mesmo nome em classes diferentes.  
+15. Use composição criando uma classe que contenha outra como atributo.  
+16. Crie um `@property` para acessar um atributo privado.  
+17. Implemente métodos getter e setter para um atributo privado.  
+18. Crie uma função decoradora que modifique o comportamento de um método.  
+19. Crie múltiplos objetos de classes diferentes e armazene em uma lista.  
+20. Percorra a lista chamando métodos comuns (polimorfismo).  
