@@ -1,6 +1,6 @@
 # Módulo 2 – Condições, Loops, List Comprehension, Try/Except e Funções  
 
-**Objetivo:** Praticar lógica condicional, repetição, tratamento de erros e modularização.  
+Objetivo: Praticar lógica condicional, repetição, tratamento de erros e modularização.  
 
 1. Peça a idade de uma pessoa e diga se ela é maior ou menor de idade.  
 2. Receba um número e informe se ele é par ou ímpar.  
@@ -19,3 +19,4 @@
 15. Crie uma função `lambda` que calcule o quadrado de um número.  
 16. Use função `lambda` para inverter uma string.  
 17. Crie uma função que receba uma lista e retorne a lista ordenada sem modificar a original.  
+
