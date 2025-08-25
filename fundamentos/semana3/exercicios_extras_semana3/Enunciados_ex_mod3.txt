@@ -1,7 +1,7 @@
 # Módulo 3 – Módulos e Bibliotecas  
-*(os, webbrowser, math, statistics, re, hashlib, json, collections, random, tkinter, venv)*  
+(os, webbrowser, math, statistics, re, hashlib, json, collections, random, tkinter, venv)
 
-**Objetivo:** Usar bibliotecas padrão e externas em aplicações práticas.  
+Objetivo: Usar bibliotecas padrão e externas em aplicações práticas.  
 
 1. Crie e importe um módulo próprio com uma função simples.  
 2. Use `os.getcwd()` para exibir o diretório atual.  
@@ -23,3 +23,4 @@
 18. Crie uma janela simples com `tkinter` com um campo de texto e botão.  
 19. Crie e ative um ambiente virtual (comandos no terminal).  
 20. Gere um `requirements.txt` com `pip freeze`.  
+
