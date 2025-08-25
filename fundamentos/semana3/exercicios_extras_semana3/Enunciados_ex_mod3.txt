@@ -1,92 +1,25 @@
-# Desafios – Módulo 3 (Módulos e Bibliotecas)
+# Módulo 3 – Módulos e Bibliotecas  
+*(os, webbrowser, math, statistics, re, hashlib, json, collections, random, tkinter, venv)*  
 
-Objetivo: Usar bibliotecas padrão e externas em aplicações práticas, subindo de dificuldade até projetos integradores.
+**Objetivo:** Usar bibliotecas padrão e externas em aplicações práticas.  
 
----
-
-## Nível 1 — Aquecimento
-- [ ] Criar módulo próprio (`utils/`) com função `slugify`.
-- [ ] `os`: listar conteúdo de diretório (cwd, contar arquivos/pastas, top-5 maiores).
-- [ ] `webbrowser`: abrir site, corrigir URL faltando http(s).
-- [ ] `math/statistics`: CLI para raiz, fatorial e média.
-- [ ] `re`: capturar letras [a-m] em texto.
-- [ ] `hashlib`: função `hash_senha` com salt.
-- [ ] `json`: dump de dicionário e leitura seletiva de chave.
-- [ ] `collections`: usar `Counter`, `namedtuple` e `deque`.
-- [ ] `random`: número 1–100, choice em lista, embaralhar baralho.
-- [ ] `tkinter`: janela mínima com campo de texto, botão e label.
-- [ ] `venv + requirements`: criar ambiente virtual e gerar `requirements.txt`.
-
----
-
-## Nível 2 — Aplicando e Combinando
-- [ ] Scanner de pastas (`os` + `json`) com ignore patterns.
-- [ ] Regex avançado: e-mails, CEPs, datas.
-- [ ] Estatísticas de notas (`statistics`): média, mediana, variância, outliers.
-- [ ] Hash seguro: `criar_usuario` + `login` (`hmac.compare_digest`).
-- [ ] Simulação de dados (`random`): 100k rolagens de 2d6, salvar CSV.
-- [ ] `tkinter`: app para abrir JSON, buscar chave e mostrar valor (threading para não travar).
-
----
-
-## Nível 3 — Engenharia de Software
-- [ ] Transformar utilitários em pacote `ktools` com `pyproject.toml`.
-- [ ] Usar `.env` para configurações (`python-dotenv`).
-- [ ] Logging estruturado (`logging`, arquivo `app.log`).
-- [ ] Testes com `pytest` (cobertura ≥ 85%).
-- [ ] Regex: validar CPF (formato e dígito verificador).
-- [ ] Implementar cache LRU com `deque` + `dict`.
-- [ ] `tkinter`: janela com 2 abas (Scanner / Hash de senha), com progress bar.
-
----
-
-## Nível 4 — Integração e Polimento
-- [ ] CLI raiz `ktools` com subcomandos (`scan`, `regex`, `hash`, `stats`, `rand`, `jsonview`).
-- [ ] Saída em múltiplos formatos (`json|csv|md`) gravada em `./out/`.
-- [ ] Todos os módulos com opção `--seed` para determinismo.
-- [ ] Empacotamento/distribuição (`python -m build`, wheel instalável).
-- [ ] README com instruções de instalação e uso.
-
----
-
-## Projetos
-### A) Explorer de Arquivos Inteligente (Desktop)
-- [ ] Explorer: lista e navegação de pastas.
-- [ ] Estatísticas: tamanho total, maiores arquivos, extensões, média/mediana.
-- [ ] Buscador regex: e-mail, CEP, data, CPF.
-- [ ] Salvar/carregar sessão em JSON.
-- [ ] Exportar relatórios em `.md` e `.json`.
-- [ ] UI responsiva com progress bar.
-
-### B) Senha+ (Segurança leve com boa UX)
-- [ ] CLI + GUI para carteira de credenciais (`usuario`, `salt`, `hash`).
-- [ ] Validação de login com `hmac.compare_digest`.
-- [ ] Avaliador de força de senha com regex.
-- [ ] Gerador de senhas com `random` + seed.
-- [ ] Histórico de logins (`deque`).
-- [ ] Cobertura de testes ≥ 90% para criptografia/validação.
-
----
-
-## Bônus Mini-Desafios
-- [ ] Regex sem lookaheads → comparar performance.
-- [ ] Counter vs dict → benchmark simples.
-- [ ] LRU manual vs `functools.lru_cache`.
-- [ ] Teste de fairness (chi-quadrado simples) na simulação 2d6.
-- [ ] Suporte a `pathlib` além de `os.path`.
-
----
-
-# Estrutura de Repositório
-/ktools
-  /ktools
-    __init__.py
-    cli.py
-    utils/
-    ui/
-  /tests
-  /data
-  /out
-  README.md
-  pyproject.toml
-  requirements.txt
+1. Crie e importe um módulo próprio com uma função simples.  
+2. Use `os.getcwd()` para exibir o diretório atual.  
+3. Liste todos os arquivos e pastas do diretório atual.  
+4. Abra um site no navegador usando `webbrowser`.  
+5. Calcule a raiz quadrada de 144 com `math.sqrt()`.  
+6. Use `math.factorial()` para calcular o fatorial de 6.  
+7. Calcule a média de `[10, 5, 8]` usando `statistics.mean()`.  
+8. Encontre todas as letras entre “a” e “m” em uma string usando regex.  
+9. Criptografe uma senha usando `hashlib.sha256()`.  
+10. Converta um dicionário Python para JSON e exiba a string.  
+11. Leia um arquivo `.json` e exiba apenas uma chave específica.  
+12. Use `Counter` para contar itens repetidos em uma lista.  
+13. Use `namedtuple` para criar e armazenar dados de um jogo.  
+14. Use `deque` para adicionar e remover elementos nas duas extremidades.  
+15. Gere um número aleatório entre 1 e 100.  
+16. Escolha aleatoriamente um elemento de uma lista.  
+17. Embaralhe uma lista de cartas usando `random.sample()`.  
+18. Crie uma janela simples com `tkinter` com um campo de texto e botão.  
+19. Crie e ative um ambiente virtual (comandos no terminal).  
+20. Gere um `requirements.txt` com `pip freeze`.  
